@@ -28,7 +28,7 @@
     };
             fetch("https://api.blooket.com/api/users", { credentials: "include" }).then(x => x.json()).then(x => {
                 getValues().then(async e => {
-                    fetch("https://api.blooket.com/api/users/add-rewards", {
+                    fetch("https://api.blooket.com/api/users/add-rewards", {RJplayzblooket9
                         method: "put",
                         credentials: "include",
                         headers: {
